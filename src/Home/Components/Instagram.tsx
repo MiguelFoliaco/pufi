@@ -1,13 +1,11 @@
 import { useState } from 'react';
-import { useSelector } from 'react-redux';
-import { RootInstagramState } from '../../Context/InstagramIMG';
 import { Loading } from '../../Shared/Components/Loading';
 import { getID } from '../../Shared/Service/IDs';
 import '../less/Instagram.less';
 
 const Instagram = () => {
 
-    const {imgs}=useSelector((state:RootInstagramState)=>state);
+    const imgs=['/images/sombrilla2.png','/images/sillon.jpg','/images/pillow-on-bed.jpg','/images/cart.jpg','/images/aloahada.jpg','/images/sombrillas.jpg'];
 
     return (
         <div>

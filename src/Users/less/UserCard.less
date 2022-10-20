@@ -3,7 +3,59 @@
     height: 100%;
     width:170px;
     background-color:@white;
+    button{
+        margin-top: 10px !important;
+        position: relative !important;
+        bottom: 0px !important;
+        &:hover{
+            span{
+                color:@white !important;
+            }
+        }
+    }
 }
 .user-container *{
     color:@text !important;
+}
+.user-card-header{
+    width: 100%;
+    padding:10px 5px;
+    .circle-user{
+        margin: auto;
+        margin-bottom:10px;
+        width:70px;
+        height: 70px;
+        border-radius:100px;
+        border: @border;
+        .flex(center,center);
+        svg{
+            font-size:50px;
+        }
+    }
+}
+.user-card-body{
+    .flex(center,center,column);
+    p{
+        text-align: center;
+        font-weight: bold;
+    }
+}
+.form-user{
+    .flex(center,center,column);
+    .control-form{
+        padding: 10px;
+        .flex(center,center,column);
+        label{
+            text-align: center;
+            display: block;
+            font-size:15px;
+            font-weight: bolder;
+        }
+        input{
+            width:80%;
+            padding:5px;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    }
 }

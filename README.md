@@ -11,3 +11,5 @@ Este projecto esta realizado en React pero esta escrito en typescript no requier
     npm install
     npm start
 ```
+#### Plus+
+Hay un mini login en la parte superior izquierda donde hice uso de redux.
