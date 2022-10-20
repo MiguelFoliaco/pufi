@@ -1,0 +1,30 @@
+[
+    {
+        "name":"PUFFI RAIN",
+        "desc":"Sombrilla automática del sol y lluvia paraguas para guardar en bolso o cartera. Protéjase de la lluvia con ésta sombrilla automática de excelente calidad. Varillaje en aluminio con puntas flexibles para evitar que se partan con los fuertes vientos.",
+        "price":59600,
+        "image1":"/images/sombrilla2.png",
+        "image2":"/images/sombrilla_fondo_blanco.jpg"
+    },
+    {
+        "name":"PUFFI PUFF",
+        "desc":"Amplios, mullidos, coloridos y a un precio imbatible. Dos tamaños que funcionan para todas las edades. Úsalo como sillón, tumbona o butaca.",
+        "price":59600,
+        "image1":"/images/sillon.jpg",
+        "image2":"/images/sillon_sin_fondo_blanco.jpg"
+    },
+    {
+        "name":"PUFFI CART",
+        "desc":"EL ARTICULO ES EXCLUSIVO PARA VENTA POR MERCADO ENVÍOS, NO PODRÁ SER LEVANTADO EN NINGUNA TIENDA FÍSICA O PICK-UP CENTER.",
+        "price":59600,
+        "image1":"/images/cart.jpg",
+        "image2":"/images/bolsa.jpg"
+    },
+    {
+        "name": "PUFFI NAP",
+        "desc":"La almohada Cervical de TecnoFoam tiene un diseño ergonómico que sigue la curva natural del cuerpo, permitiendo así apoyar adecuadamente la cabeza, el cuello y los hombros, además, de proporcionar la comodidad que desea. Permitiéndole una posición óptima al dormir y un descanso reparador.",
+        "price":20000,
+        "image1":"/images/aloahada.jpg",
+        "image2":"images/almohada_blanco.jpg"
+    }
+]

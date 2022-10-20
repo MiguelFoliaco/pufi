@@ -1,0 +1,54 @@
+@import '/src/index.less';
+.back{
+    width:100vw;
+    height:100vw;
+    background-color:var(--sombra);
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1200;
+}
+.front{
+    position:absolute;
+    left:0;
+    right:0;
+    top:10vh;
+    margin:auto;
+    width:30vw;
+    min-height:20vh;
+    background:var(--white);
+    border-radius:3px;
+}
+.header-close{
+    padding:10px;
+    width:90%;
+    margin:auto ;
+    .flex(center,flex-end)
+}
+.header-close h4{
+    width: 50%;
+    color:@text;
+    text-align: center;
+    font-size:30px;
+}
+.close{
+    transform: scale(0);
+    background-color: @secondary;
+    border-radius: 100px;
+    width:20px;
+    height: 20px;
+}
+.img-content-modal{
+    width:100%;
+    height:100%;
+}
+.img-content-modal img{
+    display:block;
+    margin:auto;
+    height:90%;
+    max-width:90vw;
+}
+.from-body{
+    padding: 30px;
+    padding-top:10px;
+}

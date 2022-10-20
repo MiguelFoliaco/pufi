@@ -1,0 +1,1 @@
+export type IColor='primary'|'secondary'|'text'|'white'|'danger'|'success'|'back'|'front'

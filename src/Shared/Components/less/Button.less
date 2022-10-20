@@ -1,0 +1,21 @@
+@import url('/src/index.less');
+.btn-generic{
+    padding:9px 25px;
+    font-size:15px;
+    background-color:transparent;
+    border:@border;
+    font-weight:bold;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    &::before{
+        .hover-button(@text,2);
+    }
+    &:hover::before{
+        left:0;
+    }
+    span{
+        position: relative;
+        z-index:3;
+    }
+}

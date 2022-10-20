@@ -1,0 +1,93 @@
+@text:rgba(0,0,0,0.95);
+@primary:rgba(255,255,255);
+@secondary:rgba(0,0,0,0.7);
+@border:2px solid @text;
+@sombra:rgba(0,0,0,0.2);
+@border-input:0.5px inset @sombra;
+@white:white;
+@text-white:rgba(0, 0, 0, 0.3);
+:root{
+  --text:@text;
+  --primary:@primary;
+  --secondary:@secondary;
+  --border:@border;
+  --sombra:@sombra;
+  --white:@white;
+}
+*,*::before,*::after{
+  margin:0;
+  padding:0;
+  font-family: 'Open Sans';
+  transition:200ms;
+  box-sizing:border-box;
+  transition:200ms;
+  transition-delay:50ms;
+  color:@text;
+}
+.hover-button(@color:transparent,@z-index:1){
+  width: 100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:-100%;
+  background-color:@color;
+  z-index:@z-index;
+  content:" ";
+}
+.flex(@align:center,@space:space-between,@direction:row){
+    display:flex;
+    align-items:@align;
+    justify-content:@space;
+    flex-direction: @direction;
+}
+.center{
+    position: absolute;
+    margin:auto;
+    left: 0;
+    top:0;
+    right: 0;
+    bottom: 0;
+}
+.grid{
+    display:grid;
+    align-items:center;
+}
+.grid-col(@num:1){
+    .grid;
+    grid-template-columns:repeat(@num,1fr);
+}
+.grid-row(@num:1){
+    .grid;
+    grid-template-rows:repeat(@num,1fr);
+}
+.grid-pos-c(@start,@end){
+    grid-column-start:@start;
+    grid-column-end:@end;
+}
+.grid-pos-r(@start,@end){
+    grid-row-start:@start;
+    grid-row-end:@end;
+}
+.navbar2{
+    width:100%;
+    padding:5px 7px;
+    background-color:@primary;
+    .flex;
+    nav{
+        .flex;
+    }
+    h2{
+        color:@white;
+    }
+    a{
+        text-align:center;
+        color:@white;
+        text-decoration:none;
+        padding:5px 5px;
+        margin:0px 3px;
+        &:hover{
+            color:@secondary;
+            font-weight:bold;
+        }
+    }
+}
